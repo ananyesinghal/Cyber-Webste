@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html class="index">
+<head>
+	<title>Technowski World</title>
+	<link href="https://fonts.googleapis.com/css?family=Exo+2&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="mystyle2.css">
+</head>
+<style type="text/css">
+		body{
+			
+			background: linear-gradient(140deg,#ec521d,#1665c1);
+			background-size: 400%,400%;
+			animation: bs 10s ease infinite;
+		}
+		.box{
+			position: absolute;
+			  top: 50%;
+			  left: 50%;
+			  transform: translate(-50%,-50%);
+			  height: 400px;
+			  width: 500px;
+			  margin: 14px;
+			  background-size: ;
+			  background: black;
+			  color: white;
+
+		}
+		.box input[type="text"],input[type="password"]{
+			width: 190px;	
+			border:0;
+			background: none;
+			display: block;
+			outline:none;
+			color: white;
+			border: 1px solid white;
+			border-radius: 24px;
+			padding: 14px 30px;
+			text-align: center;
+			font-size: 20px;
+			margin: 10px 5px;
+			transition: 1s;
+		}
+		.box input[type="text"]{
+			position: fixed;
+			left: 20%;
+			top: 10%;
+		}
+		.box input[type="password"]{
+			position: absolute;
+			left: 20%;
+			top: 30%;
+		}
+	.box input[type="submit"]{
+
+		position: absolute;
+		top: 60%;
+		left: 32%;
+		padding: 12px 40px;
+	}
+	.box input[type="text"]:focus,input[type="password"]:focus{
+		width: 250px;
+	}
+	</style>
+
+<body>
+<header class="header" id="myHeader">
+	<h1 class="main-title">Welcome to Technowski !! || Search Security</h1>
+	<a href="index.html"><button class="header-button">&nbsp  Home  &nbsp&nbsp</button></a>
+	<a href="antivirus.html"><button class="header-button">&nbsp  antivirus  &nbsp&nbsp</button></a>
+	<a href="hacking.html"><button class="header-button">&nbsp  hacking  &nbsp&nbsp</button></a>
+	<a href="safety.html"><button class="header-button">&nbsp safety  &nbsp&nbsp</button></a>
+	<a href="contact.html"><button class="header-button">&nbsp  contact us  &nbsp&nbsp</button></a>
+</header>
+
+<div>
+	<form class="box">
+		<input type="text" name="" placeholder="Username">
+		<input type="password" name="" placeholder="Password">
+		<input type="submit" name="" value="LOGIN">
+	</form>
+</div>
+
+<footer>
+  <h2 class="foot">Technowski World | By Ananye Singhal</h2>
+</footer>
+<script type="text/javascript">
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+.header-button{
+	background-color: #4CAF50;
+	color: white;
+	padding: 14px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+
+}
+.header-button:hover{
+	background-color: red;
+	color: white;
+	padding: 14px;
+	font-size: 18px;
+	border: none;
+	cursor: pointer;
+	font-style: bold;
+}
+.main-title{
+	font-family: 'Exo 2', sans-serif;
+	border-left: ;
+	background-color: ;
+	display: inline;
+	padding-right: 10px;
+	color: white;
+}
+.head-left1{
+	color: white;
+	border-left: 3px solid yellow;
+	background-color: #4d4d4d;
+}
+.foot{
+	color: white;
+	border-left: 3px solid red;
+	background-color: ;
+}
+body{
+	font-family: 'Exo 2', sans-serif;
+}
+.index{
+		background-image: url(img/home1.jpg);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: 100% 700px;
+}
+.antivirus{
+		background-image: url(img/antivirusback.jpg);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: 100% 700px;
+}
+.hacking{
+		background-image: url(img/hackingback.jpg);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: 100% 700px;
+}
+.safety{
+		background-image: url(img/safetyback.jpg);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: 100% 700px;
+}
+.sticky{
+	position: fixed;
+}
+#left-article1{
+	width: 60%;
+	background-color: ;
+	float: left;
+	padding: 10px;
+}
+#right-article1{
+	width: 35%;
+	float: right;
+	padding: 10px;
+	background-color: ;
+}
+header{
+	border-bottom: 5px solid pink;
+	background-color: #000000;
+}
+p{
+	color: white;
+	font-size: 20px;
+}
+ul{
+	color: white;
+	font-size: 18px;
+}
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+footer {
+  background-color: #ff0066;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+.image-side{
+	width: 90%;
+}

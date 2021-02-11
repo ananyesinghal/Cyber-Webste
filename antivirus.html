@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html class="antivirus">
+<head>
+	<title>Technowski World</title>
+	<link href="https://fonts.googleapis.com/css?family=Exo+2&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+<body>
+<header class="header" id="myHeader">
+	<h1 class="main-title">Welcome to Technowski !! || Search Security</h1>
+	<a href="index.html"><button class="header-button">&nbsp  Home  &nbsp&nbsp</button></a>
+	<a href="antivirus.html"><button class="header-button">&nbsp  antivirus  &nbsp&nbsp</button></a>
+	<a href="hacking.html"><button class="header-button">&nbsp  hacking  &nbsp&nbsp</button></a>
+	<a href="safety.html"><button class="header-button">&nbsp safety  &nbsp&nbsp</button></a>
+	<a href="contact.html"><button class="header-button">&nbsp  contact us  &nbsp&nbsp</button></a>
+</header>
+
+<section>
+	<article id="left-article1">
+		<h2 class="head-left1">What is Antivirus ???</h2>
+		<p>
+			Antivirus software, or anti-virus software (abbreviated to AV software), also known as anti-malware, is a computer program used to prevent, detect, and remove malware.
+			Antivirus software was originally developed to detect and remove computer viruses, hence the name. However, with the proliferation of other kinds of malware, antivirus software started to provide protection from other computer threats. In particular, modern antivirus software can protect users from: malicious browser helper objects (BHOs), browser hijackers, ransomware, keyloggers, backdoors, rootkits, trojan horses, worms, malicious LSPs, dialers, fraudtools, adware and spyware. Some products also include protection from other computer threats, such as infected and malicious URLs, spam, scam and phishing attacks, online identity (privacy), online banking attacks, social engineering techniques, advanced persistent threat (APT) and botnet DDoS attacks.
+		</p>
+		<h2 class="head-left1">Identification methods</h2>
+		<p>
+			One of the few solid theoretical results in the study of computer viruses is Frederick B. Cohen's 1987 demonstration that there is no algorithm that can perfectly detect all possible viruses. However, using different layers of defense, a good detection rate may be achieved.
+
+			There are several methods which antivirus engine can use to identify malware:
+			
+			
+			<ul>
+				<li>Sandbox detection: a particular behavioural-based detection technique that, instead of detecting the behavioural fingerprint at run time, it executes the programs in a virtual environment, logging what actions the program performs. Depending on the actions logged, the antivirus engine can determine if the program is malicious or not. If not, then, the program is executed in the real environment. Albeit this technique has shown to be quite effective, given its heaviness and slowness, it is rarely used in end-user antivirus solutions.</li>
+				<li>Data mining techniques: one of the latest approaches applied in malware detection. Data mining and machine learning algorithms are used to try to classify the behaviour of a file (as either malicious or benign) given a series of file features, that are extracted from the file itself.</li>
+			</ul>
+		</p>
+		<h2 class="head-left1">Issues of concern</h2>
+		<p>
+			Some commercial antivirus software end-user license agreements include a clause that the subscription will be automatically renewed, and the purchaser's credit card automatically billed, at the renewal time without explicit approval. For example, McAfee requires users to unsubscribe at least 60 days before the expiration of the present subscription while BitDefender sends notifications to unsubscribe 30 days before the renewal. Norton AntiVirus also renews subscriptions automatically by default.
+		</p>
+		<p>
+			A "false positive" or "false alarm" is when antivirus software identifies a non-malicious file as malware. When this happens, it can cause serious problems. For example, if an antivirus program is configured to immediately delete or quarantine infected files, as is common on Microsoft Windows antivirus applications, a false positive in an essential file can render the Windows operating system or some applications unusable. Recovering from such damage to critical software infrastructure incurs technical support costs and businesses can be forced to close whilst remedial action is undertaken.
+		</p>
+	</article>
+
+	<article id="right-article1">
+		<img src="img/antivirus1.png" alt="detected-img" class="image-side">
+		<br>
+		<br>
+		<br>
+		<br>
+		<img src="img/antivirus2.png" alt="mcafee-img" class="image-side">
+		<br>
+		<br>
+		<br>
+		<br>
+		<img src="img/antivirus3.png" alt="norton-img" class="image-side">
+		<br>
+		<br>
+		<br>
+		<br>
+		<img src="img/antivirus4.jpg" alt="defender-img" class="image-side">
+</section>
+
+<footer>
+  <h2 class="foot">Technowski World | By Ananye Singhal</h2>
+</footer>
+<script type="text/javascript">
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+</body>
+</html>
